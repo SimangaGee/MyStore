@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#DBE9EB"
+    android:background="#FFFFFF"
+    tools:context=".Adder">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Add A Product"
+        android:textAlignment="center"
+        android:textColor="#798FE4"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/header"
+        android:backgroundTint="#798FE4"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#798FE4"
+        android:textColorHint="#798FE4"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/editTextbuy"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextquantity"
+        android:layout_marginTop="-118dp"
+        android:backgroundTint="#798FE4"
+        android:ems="10"
+        android:hint="Buying Price"
+        android:inputType="numberDecimal"
+        android:textColor= "#798FE4"
+        android:textColorHint="#798FE4"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/editTextsell"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextbuy"
+        android:backgroundTint="#798FE4"
+        android:ems="10"
+        android:hint="Selling Price"
+        android:inputType="numberDecimal"
+        android:textColor= "#798FE4"
+        android:textColorHint="#798FE4"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/editTextquantity"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="118dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="#798FE4"
+        android:ems="10"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:textColor="#798FE4"
+        android:textColorHint="#798FE4"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="113dp"
+        android:onClick="run"
+        android:text="Add product"
+        android:textSize="20dp"
+        android:background="#84E2A6"
+        />
+
+</RelativeLayout>

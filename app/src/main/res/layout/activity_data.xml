@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#798FE4"
+            android:textColorHint="#798FE4"
+            android:hint="Enter Name of Product"/>
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="213dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/cashbook"
+            android:background="#798FE4"
+            android:entries="@array/country_arrays"/>
+
+        <!-- Content here -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/spinner2"
+            android:background="#798FE4"
+            android:text="Search" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year Purchases"/>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barchart1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year Purchases and Sales"
+            android:layout_marginTop="30dp"/>
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_below="@+id/barchart"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year Sales"
+            android:layout_marginTop="30dp"/>
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barchart"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+</ScrollView>
+        

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#DBE9EB"
+    android:background="#FFFFFF"
+    tools:context=".Sale">
+
+
+
+    <Button
+        android:id="@+id/scansell"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginBottom="412dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#798FE4"
+        android:fontFamily="casual"
+        android:onClick="scanner"
+        android:text="SCAN"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/picksell"
+        android:layout_width="379dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="260dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="casual"
+        android:onClick="picker"
+        android:text="PICK"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/closesell"
+        android:layout_width="367dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:backgroundTint="#84E2A6"
+        android:fontFamily="casual"
+        android:onClick="Close"
+        android:text="CHECKOUT"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#DBE9EB"
+    android:background="#FFFFFF"
+    tools:context=".Books">
+
+    <Button
+        android:id="@+id/cashbook"
+        android:layout_width="539dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:background="#798FE4"
+        android:fontFamily="casual"
+        android:onClick="cashBook"
+        android:text="CashBook"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="540dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cashbook"
+        android:fontFamily="casual"
+        android:layout_marginStart="29dp"
+        android:background="#798FE4"
+        android:entries="@array/country_arrays" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cashbook"
+        android:layout_below="@+id/spinner1"
+        android:background="#798FE4"
+        android:fontFamily="casual"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/data"
+        android:layout_width="537dp"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="121dp"
+        android:layout_marginStart="30dp"
+        android:background="#000000"
+        android:fontFamily="casual"
+        android:onClick="Data"
+        android:text="Data"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="539dp"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="#84E2A6"
+        android:fontFamily="casual"
+        android:onClick="backer"
+        android:text="Backup"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</RelativeLayout>

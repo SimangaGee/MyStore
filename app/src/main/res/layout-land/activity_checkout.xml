@@ -1,0 +1,297 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:backgroundTint="#DBE9EB"
+    android:background="#FFFFFF"
+    tools:context=".checkout">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="160dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_span="1"
+        android:background="#ECEFF1"
+        android:textColor="#000000"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="182dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/text1"
+        android:layout_marginEnd="10dp"
+        android:layout_span="1"
+        android:background="#ECEFF1"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:typeface="monospace" />
+
+
+    <TableLayout
+        android:layout_width="581dp"
+        android:layout_height="276dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="83dp"
+        android:background="#CFD8DC"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:weightSum="120">
+
+
+        <!--     Row 5 Starts From Here -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="134dp"
+            android:layout_weight="20"
+            android:gravity="center_horizontal">
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#ECEFF1"
+                android:text="1"
+                android:textColor="#000000"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#ECEFF1"
+                android:text="2"
+                android:textColor="#000000"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#ECEFF1"
+                android:text="3"
+                android:textColor="#000000"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/buttonC"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_span="1"
+                android:background="#607D8B"
+                android:text="C"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+
+        </TableRow>
+        <!--     Row 4 Starts From Here -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#ECEFF1"
+                android:text="4"
+                android:textColor="#000000"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#ECEFF1"
+                android:text="5"
+                android:textColor="#000000"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#ECEFF1"
+                android:text="6"
+                android:textColor="#000000"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+
+            <Button
+                android:id="@+id/buttonSub"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#607D8B"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+
+        </TableRow>
+
+
+        <!--     Row 3 Starts From Here -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="52dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#ECEFF1"
+                android:text="7"
+                android:textColor="#000000"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#ECEFF1"
+                android:text="8"
+                android:textColor="#000000"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#ECEFF1"
+                android:text="9"
+                android:textColor="#000000"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+
+            <Button
+                android:id="@+id/buttonAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#607D8B"
+                android:text="+"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+        </TableRow>
+
+
+        <!--     Row 6 Starts From Here -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="104dp"
+            android:layout_weight="20"
+            android:gravity="center_horizontal">
+
+
+            <Button
+                android:id="@+id/buttonPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#ECEFF1"
+                android:text="."
+                android:textColor="#000000"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/buttonZero"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#ECEFF1"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+
+            <Button
+                android:id="@+id/buttonEqual"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginTop="1dp"
+                android:layout_span="1"
+                android:background="#FF9800"
+                android:text="="
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/buttondiv"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginRight="1dp"
+                android:layout_span="1"
+                android:background="#607D8B"
+                android:text="NEXT"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:typeface="monospace" />
+        </TableRow>
+
+
+    </TableLayout>
+
+</RelativeLayout>
